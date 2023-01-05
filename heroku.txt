@@ -1,0 +1,13 @@
+set HomeDrive=C:/Users/practicanteti/AppData/Local/heroku
+
+heroku login
+
+heroku git:clone -a tdem-menu-documentos
+
+cd C:\Users\practicanteti\Documents\developers\Angular\api-rest-json
+
+git add .
+
+git commit -am "make it better"
+
+git push heroku master
